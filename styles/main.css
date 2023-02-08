@@ -1,0 +1,32 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .img {
+    object-fit: cover;
+  }
+
+  header {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+  }
+  
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  header a {
+    color: white;
+    padding: 20px 30px;
+  }
+
+  a {
+    text-decoration: none;
+  }
